@@ -144,7 +144,7 @@ export default function DashHomeHero() {
             <section
                 style={{
                     background: "linear-gradient(to right, #001233 0%, #002b66 50%, #0044aa 100%)",
-                    margin: "40px 60px",
+                    margin: "40px 120px",
                     borderRadius: "12px",
                     overflow: "hidden",
                 }}

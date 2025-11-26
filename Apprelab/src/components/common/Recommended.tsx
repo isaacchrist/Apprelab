@@ -30,10 +30,9 @@ export default function Recommended() {
     return (
         <div
             style={{
-                padding: "40px 60px",
+                padding: "40px 0",
                 fontFamily: "Poppins, sans-serif",
-                maxWidth: "1400px",
-                margin: "0 auto",
+                margin: "0 120px",
             }}
         >
             {/* Header */}
@@ -58,9 +57,10 @@ export default function Recommended() {
                     href="#"
                     style={{
                         color: "#000",
-                        textDecoration: "none",
+                        textDecoration: "underline",
                         fontSize: "0.95rem",
-                        fontWeight: "500",
+                        fontWeight: "400",
+                        marginRight: "30px",
                     }}
                 >
                     More
@@ -68,7 +68,7 @@ export default function Recommended() {
             </div>
 
             {/* Course List */}
-            <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "32px" }}>
                 {courses.map((course, index) => (
                     <div
                         key={index}

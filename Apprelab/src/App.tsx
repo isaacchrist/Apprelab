@@ -2,6 +2,7 @@ import React from "react";
 import DashHomeHero from "./components/common/DashHomeHero";
 import TopCategories from "./components/common/TopCategories";
 import Recommended from "./components/common/Recommended";
+import TopRatedCourses from "./components/common/TopRatedCourses";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     >
       <DashHomeHero />
       <TopCategories />
+      <TopRatedCourses />
       <Recommended />
     </div>
   );

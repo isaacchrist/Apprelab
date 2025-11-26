@@ -12,10 +12,9 @@ export default function TopCategories() {
   return (
     <section
       style={{
-        padding: "40px 60px",
+        padding: "40px 0",
         fontFamily: "Arial, sans-serif",
-        maxWidth: "1400px",
-        margin: "0 auto",
+        margin: "0 120px",
       }}
     >
       <h2 style={{ marginBottom: "20px", fontWeight: "bold" }}>Top Categories</h2>
@@ -23,7 +22,7 @@ export default function TopCategories() {
       <div
         style={{
           display: "flex",
-          gap: "20px",
+          gap: "40px",
           justifyContent: "space-between",
         }}
       >
